@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página</title>
-    <meta http-equiv="refresh" content="0; url=/dashboard.html" />
+    <title>Mi Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .dashboard-container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-</body>
-</html>
+
+    <div class="dashboard-container">
+        <h1>Bienvenido al Dashboard</h1>
+        <p>A continuación, puedes ver los datos de nuestra hoja de cálculo:</p>
+        
+        <!-- Incluir Google Sheets con iframe -->
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vStX5Fgd5pZlr0Y-Qt5MGbXdjmTpocZK7Q32Ry15-sOdigntTPZ8GYB8Djxyt12zwc03h7VDT9knop9/pubhtml?gid=1545933925&amp;single=true&amp;widget=true&amp;headers=false"
